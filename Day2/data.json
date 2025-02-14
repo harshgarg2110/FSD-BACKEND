@@ -1,0 +1,7 @@
+
+  [
+    { "id": 1, "name": "John", "age": 25, "email": "john@example.com", "phone": "+1234567890", "city": "New York" },
+    { "id": 2, "name": "Paro", "age": 24, "email": "paro@example.com", "phone": "+9876543210", "city": "Los Angeles" },
+    { "id": 3, "name": "Dora", "age": 26, "email": "dora@example.com", "phone": "+1122334455", "city": "Chicago" },
+    { "id": 4, "name": "Mona", "age": 28, "email": "mona@example.com", "phone": "+2233445566", "city": "Houston" }
+]
