@@ -8,7 +8,7 @@ const Users = [
 ];
 
 const server = http.createServer(async (req, res) => {
-  res.writeHead(200, { "Conten-Type": "application/json" });
+  res.writeHead(200, { "Content-Type": "application/json" });
 
   const names = Users.map((user) => user.name);
   res.end(JSON.stringify(names));
