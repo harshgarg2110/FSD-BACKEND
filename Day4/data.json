@@ -1,0 +1,65 @@
+{
+    "students": [
+      {
+        "name": "Amit Sharma",
+        "rollno": "101",
+        "sec": "A",
+        "class": "10"
+      },
+      {
+        "name": "Priya Verma",
+        "rollno": "102",
+        "sec": "B",
+        "class": "10"
+      },
+      {
+        "name": "Rohan Mehta",
+        "rollno": "103",
+        "sec": "A",
+        "class": "9"
+      },
+      {
+        "name": "Simran Kaur",
+        "rollno": "104",
+        "sec": "C",
+        "class": "11"
+      },
+      {
+        "name": "Vikas Gupta",
+        "rollno": "105",
+        "sec": "A",
+        "class": "12"
+      },
+      {
+        "name": "Neha Singh",
+        "rollno": "106",
+        "sec": "B",
+        "class": "9"
+      },
+      {
+        "name": "Rahul Yadav",
+        "rollno": "107",
+        "sec": "C",
+        "class": "10"
+      },
+      {
+        "name": "Anjali Das",
+        "rollno": "108",
+        "sec": "A",
+        "class": "11"
+      },
+      {
+        "name": "Suresh Patil",
+        "rollno": "109",
+        "sec": "B",
+        "class": "12"
+      },
+      {
+        "name": "Meera Nair",
+        "rollno": "110",
+        "sec": "C",
+        "class": "9"
+      }
+    ]
+  }
+  
