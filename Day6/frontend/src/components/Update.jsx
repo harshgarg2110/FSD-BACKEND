@@ -7,7 +7,7 @@ const Update = () => {
     const name = e.target.name.value;
     const age = e.target.age.value;
     const data = { name, age };
-    await axios.put(`http://localhost:9000/users/${id}`, data);
+    await axios.put(`https://fsd-backend-26dz.onrender.com/users/${id}`, data);
     alert("Success");
   };
 
