@@ -6,12 +6,22 @@ import Update from "./components/Update";
 import "./App.css";
 const App = () => {
   return (
-    <div>
-      <h1>User Registration System</h1>
-      <Register />
-      <View />
-      <Delete />
-      <Update />
+    <div className="min-h-screen bg-gray-100 p-6">
+      <h1 className="text-3xl font-bold text-center mb-8 text-blue-700">
+        User Registration System
+      </h1>
+
+      {/* Top Row: Register, Update, Delete */}
+      <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center mb-10">
+        <Register />
+        <Update />
+        <Delete />
+      </div>
+
+      {/* Bottom Section: View */}
+      <div className="max-w-5xl mx-auto">
+        <View />
+      </div>
     </div>
   );
 };
