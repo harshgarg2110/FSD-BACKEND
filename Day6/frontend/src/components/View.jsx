@@ -9,9 +9,7 @@ const View = () => {
   }, []);
 
   const viewdata = async () => {
-    const res = await axios.get(
-      "https://user-registration-system-vxdr.onrender.com/users"
-    );
+    const res = await axios.get("https://fsd-backend-fgbt.onrender.com/Users");
     console.log(res);
     setUsers(res.data);
   };

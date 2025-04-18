@@ -8,10 +8,7 @@ const Register = () => {
       name: e.target.name.value,
       age: e.target.age.value,
     };
-    await axios.post(
-      "https://user-registration-system-vxdr.onrender.com/users",
-      user
-    );
+    await axios.post("https://fsd-backend-fgbt.onrender.com/Users", user);
     alert("User Registered Successfully");
   };
 
