@@ -23,7 +23,7 @@ const DeleteBook = () => {
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(`http://localhost:9000/books/${id}`);
+      await axios.delete(`https://book-app-1-l6lc.onrender.com/books/${id}`);
       alert("Book deleted successfully");
       fetchBooks();
     } catch (error) {

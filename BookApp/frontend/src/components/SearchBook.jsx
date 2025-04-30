@@ -13,7 +13,7 @@ const SearchBook = () => {
 
     try {
       const res = await axios.get(
-        `http://localhost:9000/search?title=${query}`
+        `https://book-app-1-l6lc.onrender.com/search?title=${query}`
       );
       setBooks(res.data);
     } catch (error) {

@@ -49,7 +49,7 @@ const UpdateBook = () => {
     e.preventDefault();
     try {
       await axios.put(
-        `https://book-app-31ms.onrender.com/books/${selectedBookId}`,
+        `https://book-app-1-l6lc.onrender.com/books/${selectedBookId}`,
         formData
       );
       alert("Book updated successfully");
